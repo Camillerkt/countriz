@@ -1,0 +1,106 @@
+.Flag {
+  background-color: white;
+  color: #2f527b;
+  padding: 68px 25px 65px;
+  border-radius: 24px;
+  position: relative;
+  margin-top: -5px;
+  min-width: 300px;
+  height: 100%;
+
+  img#adventure {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    height: 90px;
+  }
+
+  img#flag {
+    width: 70px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin: -10px 0 0 0;
+  }
+
+  .choices {
+    padding-left: 0;
+    color: #6066d0b2;
+    list-style: inside;
+
+    .choice {
+      padding: 10px;
+      margin-top: 20px;
+      border: 2px solid #6066d0b2;
+      border-radius: 12px;
+      cursor: pointer;
+      list-style-type: upper-alpha;
+      position: relative;
+
+      span {
+        padding-left: 35px;
+        margin: 0;
+      }
+
+      span.customSpan {
+        padding-right: 30px;
+      }
+
+      span.icon {
+        position: absolute;
+        right: 10px;
+      }
+    }
+
+    .correctAnswer {
+      color: white;
+      background-color: #60bf88;
+      border-color: #60bf88;
+    }
+
+    .incorrectAnswer {
+      color: white;
+      background-color: #ea8282;
+      border-color: #ea8282;
+    }
+
+    .choice:hover {
+      color: white;
+      background-color: #f9a826;
+      border-color: #f9a826;
+    }
+
+    .correctAnswer:hover {
+      color: white;
+      background-color: #60bf88;
+      border-color: #60bf88;
+    }
+
+    .incorrectAnswer:hover {
+      color: white;
+      background-color: #ea8282;
+      border-color: #ea8282;
+    }
+  }
+
+  button {
+    background-color: #f9a826;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    padding: 13px 25px;
+    box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+    float: right;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: white;
+    border: 1px solid #f9a826;
+    color: #f9a826;
+  }
+}
